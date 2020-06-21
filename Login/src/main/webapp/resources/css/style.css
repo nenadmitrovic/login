@@ -1,0 +1,171 @@
+.navbar-default {
+  background-color: #3b7fe2;
+  border-color: #1a5cd3;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #89a9d7;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #89a9d7;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #89a9d7;
+  background-color: #1a5cd3;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #89a9d7;
+  background-color: #1a5cd3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #1a5cd3;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #1a5cd3;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #89a9d7;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #89a9d7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #89a9d7;
+    background-color: #1a5cd3;
+  }
+}
+
+
+body{
+	background:#f4f4f4;
+	
+}
+
+.navbar{
+	min-height:50px !important;
+	margin-bottom:0;
+	border-radius:0;
+	
+}
+
+.navbar >li >a {
+	padding-top:6px !important;
+	padding-bottom:0 !important;
+	height:50px;
+}
+
+/* da bi implementirali boje na ostale komponente*/
+
+.main-color-bg{
+	background-color: #3b7fe2 !important;
+  	border-color: #1a5cd3 !important;
+	color:#ffffff !important;
+	
+}
+
+/*header*/
+
+#header{
+	background:#16DC5E;
+	color:#ffffff;
+	padding-bottom:10px;
+	margin-bottom:15px;
+}
+
+/*Breadcrumb*/
+
+.breadcrumb{
+	background:#cccccc;
+	color:#333333;
+}
+
+.breadcrumb a{
+	color:#333333;
+}
+
+.dash-box{
+	text-align:center;
+}
+
+#footer{
+	background:#333333;
+	color:#ffffff;
+	text-align:center;
+	padding:30px;
+	margin-top:30px;
+        
+	
+}
+
+#login{
+	margin-top:30px;
+	
+}
+
+#sidebar{
+    
+    margin-top: 30px;
+}
+
+#add_company{
+    
+    margin-bottom: 222px;
+}
+
+#table{
+    
+    margin-top: 30px;
+}
+
+#tabela{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
